@@ -1,0 +1,51 @@
+.container{
+    text-align: center;
+}
+.todo-app{
+    margin-top: 8%;
+}
+.todo-app h2{
+    font-size: 50px;
+    font-weight: 800;
+}
+.todo-box{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.add-task{
+    width: 50%;
+    height: 6vh;
+    padding-left: 20px;
+    margin-right: 20px;
+}
+.list{
+    margin-top: 5%;
+}
+ ul li{
+    text-align: left;
+    list-style: none;
+    font-size: 17px;
+    padding: 12px 8px 12px 50px;
+    user-select: none;
+    margin-left: 18%;
+    position: relative;
+}
+ul li::before{
+    content: '';
+    position: absolute;
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    background-image: url(./uncheck.png);
+    background-size: cover;
+    background-position: center;
+    top: 12px;
+    left: 8px;
+}
+.checked{
+    color:#555;
+    text-decoration: line-through;
+}
+.checked::before{
+    background-image: url(./checked.png);
+}

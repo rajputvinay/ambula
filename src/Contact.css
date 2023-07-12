@@ -1,0 +1,105 @@
+.contact_row {
+    display: flex;
+}
+
+.contact_div {
+    background-color: white;
+    margin: 0px;
+    width: 45%;
+    position: relative;
+    padding-left: 07%;
+    padding-top: 16px;
+    padding-bottom: 50px;
+}
+
+.contact_input {
+    padding: 0px;
+    width: 79%;
+
+
+}
+
+h5 {
+    color: black;
+}
+
+.contact_head {
+    text-align: center;
+}
+
+.contact_head h2 {
+    font-size: 60px;
+    color: #165768;
+    font-weight: 900;
+}
+
+.sbutton {
+    margin-top: 15px;
+    border-radius: 25px;
+    width: 200px;
+    font-size: 22px;
+    padding: 7px;
+    color: white;
+    font-weight: bold;
+    background-color: #039bd3;
+    text-align: center;
+    border-color: #039bd3;
+    position: relative;
+    border-style: solid;
+}
+
+.sbutton:hover {
+    background-color: #027eac;
+    color: white;
+    border-color: #027eac;
+    width: 200px;
+    padding: 7px;
+    text-align: center;
+    transition: 0.4s;
+}
+
+.sinput {
+    padding-left: 20px;
+    border-style: solid;
+    border-radius: 0px;
+    border-color: #F5F4FA;
+    background-color: #F5F4FA;
+    height: 45px;
+    margin-bottom: 15px;
+
+}
+
+.contact_input p {
+    margin-top: 10px;
+}
+
+.contact_p {
+    width: 438px;
+    justify-content: space-around;
+}
+
+@keyframes float {
+    0% {
+
+        transform: translatey(0px);
+    }
+
+    50% {
+
+        transform: translatey(-20px);
+    }
+
+    100% {
+
+        transform: translatey(0px);
+    }
+}
+
+.contact_image {
+    width: 750px;
+    animation: float 2.5s ease-in-out infinite;
+}
+
+.contact_div2 {
+    margin-top: 20px;
+}
